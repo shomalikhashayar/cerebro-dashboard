@@ -77,8 +77,8 @@ const FiltteringPopover = () => {
                             handleChangeRadio(e.target.value)
                         }} value={filterIndex}>
                         <Space direction="vertical">
-                            {filteringOptionsModel.map((item) =>
-                                <Radio value={item.index}>{item.label}</Radio>
+                            {filteringOptionsModel.map((item, index) =>
+                                <Radio value={item.index} key={index}>{item.label}</Radio>
                             )}
                         </Space>
                     </Radio.Group>
