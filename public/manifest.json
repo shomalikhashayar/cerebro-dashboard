@@ -1,0 +1,20 @@
+{
+  "short_name": "Payesh",
+  "name": "Samaneye Payesh",
+  "icons": [
+    {
+      "src": "logo_light.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo_dark.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
